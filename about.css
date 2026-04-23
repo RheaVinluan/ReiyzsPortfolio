@@ -1,0 +1,36 @@
+.about-me{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 40px;
+}
+
+.about-me img{
+    width: 410px;
+    height: 510px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.about-me-text h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: #1f1b2e;
+    text-transform: uppercase;
+    font-weight: 200px;
+}
+
+.about-me-text p{
+    font-family: 'Inter', serif;
+    font-size: 18px;
+    color: #5a5570;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.space{
+    display: block;
+    height: 20px;
+}
