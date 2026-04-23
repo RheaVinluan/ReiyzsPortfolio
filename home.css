@@ -59,10 +59,9 @@
     cursor: pointer;
 }
 
-.btn a{
+a .btn{
     font-family: 'Inter', serif;
     font-size: 16px;
-    text-decoration: none;
     font-weight: 500;
 }
 
@@ -74,7 +73,7 @@
     background-color: #2a0960;
 }
 
-.main-btn a{
+a .main-btn {
     color: #ffffff;
 }
 
@@ -83,16 +82,13 @@
     border: 2px solid #ec4899;
 }
 
-.secondary-btn:hover{
+.secondary-btn:hover, .secondary-btn:hover a{
     background-color: #ec4899;
-}
-
-.secondary-btn a{
-    color: #ec4899;
-}
-
-.secondary-btn a:hover{
     color: #ffffff;
+}
+
+a .secondary-btn{
+    color: #ec4899;
 }
 
 /*highlight*/
@@ -309,6 +305,7 @@
 .socials-list{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 100px;
     margin: 80px 0;
 }
@@ -329,7 +326,6 @@
 }
 
 .with-icons a{
-    text-decoration: none;
     color:#f8f7fb;
     font-family: 'inter', serif;
 }
@@ -342,4 +338,21 @@
     font-weight: 500;
     max-width: 600px;
     text-align: center;
+}
+
+.contact .secondary-btn{
+    border:#fbcfe8 2px solid;
+    background-color: transparent;
+    display: block;
+    margin: 20px auto;
+}
+
+.contact .secondary-btn:hover, .contact .secondary-btn:hover a{
+    background-color: #fbcfe8;
+    color: #1f1b2e;
+}
+
+.contact a .secondary-btn{
+    color: #fbcfe8;
+    font-size: 16px;
 }
