@@ -35,8 +35,30 @@ body {
 }
 
 .menu-right a {
+    position: relative;
     text-decoration: none;
     color: #1f1b2e;
+}
+
+.menu-right a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #6d28d9;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+    transition: width 0.3s ease;
+}
+
+.menu-right a:hover::after {
+    width: 100%;
+}
+
+.menu-right .active{
+    color: #6d28d9;
+    font-weight: bold;
 }
 
 
