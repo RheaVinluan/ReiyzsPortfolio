@@ -34,3 +34,94 @@
     display: block;
     height: 20px;
 }
+
+/*experiences*/
+
+.exp-educ {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 30px;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.bi{
+    color: #6d28d9;
+    font-size: 40px;
+}
+
+.left-side h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #1f1b2e;
+    text-transform: uppercase;
+    font-weight: 200px;
+}
+
+.left-side h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 23px;
+    color: #1f1b2e;
+    text-transform: uppercase;
+    font-weight: 200px;
+}
+
+.left-side p{
+    font-family: 'Inter', serif;
+    font-size: 15px;
+    color: #5a5570;
+}
+
+.left-side .office{
+    color: #6d28d9;
+    text-transform: uppercase;
+}
+
+.left-side h3, .left-side .office, .left-side .stay{
+    line-height: 0.5;
+}
+
+.left-side .work-des{
+    line-height: 1.5;
+}
+ 
+.left-side li{
+    list-style-type: circle;
+}
+
+.left-side li::marker{
+    color: #6d28d9;
+    font-size: 20px;
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.right-side h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 23px;
+    color: #1f1b2e;
+    text-transform: uppercase;
+    font-weight: 200px;
+    text-align: center;
+}
+
+.skills .lists{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 20px 50px;
+}
+
+.extra h4, .extra p{
+    line-height: 0.5;
+}
