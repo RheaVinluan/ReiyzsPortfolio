@@ -8,7 +8,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 80px;
-    margin: 20px 0;
+    margin: 150px 0;
 }
 
 .left-info{
@@ -338,21 +338,4 @@ a .secondary-btn{
     font-weight: 500;
     max-width: 600px;
     text-align: center;
-}
-
-.contact .secondary-btn{
-    border:#fbcfe8 2px solid;
-    background-color: transparent;
-    display: block;
-    margin: 20px auto;
-}
-
-.contact .secondary-btn:hover, .contact .secondary-btn:hover a{
-    background-color: #fbcfe8;
-    color: #1f1b2e;
-}
-
-.contact a .secondary-btn{
-    color: #fbcfe8;
-    font-size: 16px;
 }
