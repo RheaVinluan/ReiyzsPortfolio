@@ -125,3 +125,79 @@
 .extra h4, .extra p{
     line-height: 0.5;
 }
+
+/*certifications*/
+.certs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.certs h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 52px;
+    color: #1f1b2e;
+    text-transform: uppercase;
+    font-weight: 200px;
+    margin-bottom: 20px;
+}
+
+.certs p{
+    font-family: 'Inter', serif;
+    font-size: 18px;
+    color: #6d28d9;
+    line-height: 0.5;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.cert-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.cert-item{
+    background: #fbcfe8;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.cert-item img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.cert-item h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #1f1b2e;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.cert-item p{
+    font-family: 'Inter', serif;
+    font-size: 14px;
+    color: ##1f1b2e;
+}
+
+.cert-item .date{
+    color: #6d28d9;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.cert-item h3, .cert-item p{
+    line-height: 1.5;
+}
