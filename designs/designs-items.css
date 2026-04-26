@@ -1,0 +1,43 @@
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 52px;
+    color: #1f1b2e;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.des{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: #1f1b2e;
+    text-align: center;
+}
+
+.type-of-proj{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #5a5570;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h1, .des, .type-of-proj{
+    line-height: 0.5;
+}
+
+img{
+    width: 70%;
+    display: block;
+    margin: 20px auto;
+}
+
+.item-des{
+    font-family: 'Inter', sans-serif;
+    font-size: 26px;
+    color: #1f1b2e;
+    text-align: center;
+    margin: 50px auto;
+    width: 60%;
+    line-height: 1.5;
+}
