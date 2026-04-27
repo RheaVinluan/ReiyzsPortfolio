@@ -1,0 +1,59 @@
+.head h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 52px;
+    color: #1f1b2e;
+    text-align: center;
+    line-height: 0.5;
+}
+
+.head p{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: #6d28d9;
+    text-align: center;
+}
+
+.cards-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.cards{
+    border-radius: 20px;
+    background-color: #e9d5ff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.cards h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #1f1b2e;
+    margin: 0;
+    font-weight: 500;
+}
+
+.cards p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #1f1b2e;
+    margin: 10px 0;
+}
+
+.cards a{
+    background-color: #fbcfe8;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 24px;
+    color: #1f1b2e;
+    margin-left: 10px;
+}
+
+.cards a:hover{
+    background-color: #f07abd;
+    color: #ffffff;
+}
