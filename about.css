@@ -82,10 +82,6 @@
     text-transform: uppercase;
 }
 
-.left-side h3, .left-side .office, .left-side .stay{
-    line-height: 0.5;
-}
-
 .left-side .work-des{
     line-height: 1.5;
 }
@@ -200,4 +196,221 @@
 
 .cert-item h3, .cert-item p{
     line-height: 1.5;
+}
+
+/*responsive*/
+
+@media (max-width: 1024px) {
+  .about-me {
+    padding: 0 30px;
+    gap: 30px;
+  }
+
+  .about-me img {
+    width: 340px;
+    height: 430px;
+  }
+
+  .about-me-text h1 {
+    font-size: 34px;
+  }
+
+  .about-me-text p {
+    font-size: 16px;
+  }
+
+  .exp-educ {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .skills .lists {
+    margin: 20px;
+  }
+
+  .cert-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .about-me {
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px;
+    gap: 25px;
+  }
+
+  .about-me img {
+    width: 280px;
+    height: 360px;
+  }
+
+  .about-me-text h1 {
+    font-size: 30px;
+  }
+
+  .about-me-text p {
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  .exp-educ {
+    margin: 20px;
+    gap: 30px;
+  }
+
+  .head {
+    gap: 12px;
+  }
+
+  .bi {
+    font-size: 30px;
+  }
+
+  .left-side h2 {
+    font-size: 24px;
+  }
+
+  .left-side h3,
+  .right-side h3 {
+    font-size: 20px;
+  }
+
+  .left-side p {
+    font-size: 14px;
+  }
+
+  .skills .lists {
+    grid-template-columns: 1fr;
+    margin: 15px;
+    gap: 10px;
+  }
+
+  .right-side {
+    align-items: flex-start;
+  }
+
+  .right-side h3 {
+    text-align: left;
+  }
+
+  .certs h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .certs p {
+    font-size: 16px;
+    line-height: 1.4;
+    padding: 0 20px;
+  }
+
+  .cert-list {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+  }
+
+  .cert-item {
+    align-items: center;
+    text-align: center;
+  }
+
+  .cert-item h3,
+  .cert-item p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-me {
+    padding: 0 15px;
+    gap: 20px;
+  }
+
+  .about-me img {
+    width: 220px;
+    height: 290px;
+  }
+
+  .about-me-text h1 {
+    font-size: 24px;
+  }
+
+  .about-me-text p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .space {
+    height: 12px;
+  }
+
+  .exp-educ {
+    margin: 15px;
+    gap: 25px;
+  }
+
+  .bi {
+    font-size: 26px;
+  }
+
+  .left-side h2 {
+    font-size: 20px;
+  }
+
+  .left-side h3,
+  .right-side h3 {
+    font-size: 17px;
+  }
+
+  .left-side p {
+    font-size: 13px;
+  }
+
+  .left-side li {
+    font-size: 13px;
+  }
+
+  .skills .lists {
+    margin: 10px;
+    gap: 8px;
+  }
+
+  .certs h1 {
+    font-size: 30px;
+  }
+
+  .certs p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .cert-list {
+    gap: 15px;
+    padding: 0 15px;
+  }
+
+  .cert-item {
+    padding: 15px;
+  }
+
+  .cert-item h3 {
+    font-size: 17px;
+  }
+
+  .cert-item p,
+  .cert-item .date {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .about-me,
+  .exp-educ,
+  .certs {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
