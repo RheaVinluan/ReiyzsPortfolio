@@ -187,9 +187,9 @@ I also served in leadership roles in **The QCU Times Publication**, strengthenin
 Let’s collaborate and build meaningful digital experiences.
 
 📧 Email: vinluan.rheaclaireangela.alejo@gmail.com
-🌐 Portfolio: rhea-claire-angela-vinluan.vercel.app
-💼 LinkedIn: linkedin.com/in/rhea-claire-angela-vinluan
-🐙 GitHub: github.com/RheaVinluan
+🌐 Portfolio: https://rhea-claire-angela-vinluan.vercel.app
+💼 LinkedIn: https://linkedin.com/in/rhea-claire-angela-vinluan
+🐙 GitHub: https://github.com/RheaVinluan
 
 ---
 
