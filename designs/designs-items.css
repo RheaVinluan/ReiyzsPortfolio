@@ -14,7 +14,7 @@ h1{
     text-align: center;
 }
 
-.type-of-proj{
+.type-of-proj, .github-repo, .github-repo a{
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     color: #5a5570;
